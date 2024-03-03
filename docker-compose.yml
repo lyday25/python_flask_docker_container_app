@@ -1,0 +1,9 @@
+version: '3.3'
+ 
+services:
+  flask_app:
+    image: lyday25/goldimg
+    ports:
+      - 5006:5006
+    volumes:
+      - ./:/app
